@@ -202,6 +202,95 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BRAND STATEMENT MANIFESTO SECTION */}
+      <section 
+        className="brand-statement-section"
+        style={{
+          backgroundColor: '#F5F1E8',
+          borderBottom: '1px solid #E8E2D6',
+          padding: '4.5rem 1.5rem',
+          position: 'relative'
+        }}
+      >
+        <div 
+          className="container"
+          style={{
+            maxWidth: '920px',
+            margin: '0 auto',
+            textAlign: 'center'
+          }}
+        >
+          {/* Subtle Sage Green Accent Divider */}
+          <div 
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.65rem',
+              marginBottom: '1.25rem',
+              color: '#5B7256',
+              fontSize: '0.75rem',
+              letterSpacing: '0.18em',
+              textTransform: 'uppercase',
+              fontWeight: 600
+            }}
+          >
+            <span style={{ width: '28px', height: '1px', backgroundColor: '#8FA88A' }}></span>
+            <span>Manifeste Loop</span>
+            <span style={{ width: '28px', height: '1px', backgroundColor: '#8FA88A' }}></span>
+          </div>
+
+          {/* Headline */}
+          <h2 
+            style={{
+              fontFamily: 'var(--font-serif)',
+              fontSize: 'clamp(2rem, 3.6vw, 3rem)',
+              fontWeight: 500,
+              lineHeight: 1.22,
+              color: '#242424',
+              letterSpacing: '-0.01em',
+              maxWidth: '860px',
+              margin: '0 auto 1.5rem'
+            }}
+          >
+            Loop Fashion — Les belles pièces, peu importe l'étiquette.
+          </h2>
+
+          {/* Body Text */}
+          <p 
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: 'clamp(1.02rem, 1.35vw, 1.15rem)',
+              lineHeight: 1.8,
+              color: '#4A4742',
+              fontWeight: 400,
+              maxWidth: '780px',
+              margin: '0 auto 2.25rem'
+            }}
+          >
+            Ici, on ne regarde pas la marque. On regarde la coupe, la matière, la tenue dans le temps. Si la pièce est belle, de qualité et qu'elle a encore beaucoup à offrir, elle a sa place chez Loop. Chaque article est chiné, trié et vérifié à la main pour vous offrir un dressing unique, stylé et plus responsable.
+          </p>
+
+          {/* Small Tagline Underneath */}
+          <div 
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '0.55rem 1.5rem',
+              borderTop: '1px solid rgba(143, 168, 138, 0.45)',
+              borderBottom: '1px solid rgba(143, 168, 138, 0.45)',
+              color: '#5B7256',
+              fontSize: '0.82rem',
+              fontWeight: 600,
+              letterSpacing: '0.22em',
+              textTransform: 'uppercase'
+            }}
+          >
+            <span>Chiné • Trié • Vérifié</span>
+          </div>
+        </div>
+      </section>
+
       {/* D. FEATURED CATEGORIES */}
       <section style={{ padding: '6rem 0 4rem' }}>
         <div className="container">
